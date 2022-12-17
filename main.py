@@ -1,3 +1,3 @@
-import lesson_2
+import lesson_3
 if __name__ == '__main__':
-    lesson_2.run()
+    lesson_3.run()
