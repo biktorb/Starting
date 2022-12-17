@@ -25,10 +25,11 @@ def run():
 
     '''Выполняем третье задание'''
     first_list = []
-    result = []
     for i in range(1, random.randint(2,40)):
         first_list.append(random.randint(1,15))
-    for i in first_list:
+    result = list(set(first_list))
+    """for i in first_list:
         if i not in result:
-            result.append(i)
+            result.append(i)"""
+
     print(f'Оригинальный список\n{first_list}\n\nПосле удаления дубликатов\n{result}')
